@@ -30,6 +30,16 @@ header h1 {
 /********************************************
 * Main Styles
 ********************************************/
+.welcome {
+	padding: 20px 40px;
+	background-color: #ddd;
+	margin-bottom: 40px;
+}
+
+.welcome h2 {
+	margin: 0;
+}
+
 img[alt="cheezburger"] {
 	height: auto;
 	margin: 0 20px 20px 0;

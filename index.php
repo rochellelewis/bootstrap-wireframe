@@ -36,47 +36,65 @@
 		<!--this wrapper div is for the sticky footer-->
 		<div class="sfooter-content">
 
-			<!--begin page header-->
 			<header>
 				<div class="container">
-					<h1>Sample Bootstrap Page</h1>
+					<h1>Hello!</h1>
 					<ul class="nav nav-pills pull-right">
-						<li role="presentation"><a href="#">Home</a></li>
-						<li role="presentation"><a href="#">Profile</a></li>
-						<li role="presentation"><a href="#">Messages</a></li>
+						<li><a href="#">Home</a></li>
+						<li><a href="https://github.com" target="_blank">GitHub</a></li>
+						<li><a href="https://www.eff.org/" target="_blank">EFF</a></li>
 					</ul>
 				</div>
 			</header>
 
-			<!--begin main body content-->
 			<main class="container">
-
-				<!--first content row, full-width-->
 				<div class="row">
-					<div class="col-xs-12">
-						<img src="img/i-can-has-cheezburger.jpg" alt="cheezburger" class="img-responsive pull-left img-thumbnail">
-						<p>The Federation's gone; the Borg is everywhere! We could cause a diplomatic crisis. Take the ship into the Neutral Zone Besides, you look good in a dress. Mr. Crusher, ready a collision course with the Borg ship. Fate. It protects fools, little children, and ships named "Enterprise." Sure. You'd be surprised how far a hug goes with Geordi, or Worf. Sorry, Data. Now, how the hell do we defeat an enemy that knows us better than we know ourselves? Is it my imagination, or have tempers become a little frayed on the ship lately? Shields up! Rrrrred alert! Why don't we just give everybody a promotion and call it a night - 'Commander'?</p>
+					<div class="col-xs-12 welcome">
+						<h2>Welcome to my site! :D LOLz.</h2>
 					</div>
 				</div>
 
-
-				<!--second content row, split-->
 				<div class="row">
-					<div class="col-md-6">
-						<p>Smooth as an android's bottom, eh, Data? A surprise party? Mr. Worf, I hate surprise parties. I would *never* do that to you. Now, how the hell do we defeat an enemy that knows us better than we know ourselves? They were just sucked into space. My oath is between Captain Kargan and myself. Your only concern is with how you obey my orders. Or do you prefer the rank of prisoner to that of lieutenant? Besides, you look good in a dress. What's a knock-out like you doing in a computer-generated gin joint like this? Worf, It's better than music. It's jazz. We finished our first sensor sweep of the neutral zone. Your shields were failing, sir. Earl Grey tea, watercress sandwiches... and Bularian canapés? Are you up for promotion? I can't. As much as I care about you, my first duty is to the ship</p>
+					<div class="col-md-3">
+						<p> Fate protects fools, little children and ships named Enterprise. Why don't we just give everybody a promotion and call it a night - 'Commander'? You're going to be an interesting companion, Mr. Data. Your shields were failing, sir. Wouldn't that bring about chaos? Maybe if we felt any human loss as keenly as we feel one of those close to us, human history would be far less bloody.</p>
 					</div>
-					<div class="col-md-6">
-						<p>Smooth as an android's bottom, eh, Data? A surprise party? Mr. Worf, I hate surprise parties. I would *never* do that to you. Now, how the hell do we defeat an enemy that knows us better than we know ourselves? They were just sucked into space. My oath is between Captain Kargan and myself. Your only concern is with how you obey my orders. Or do you prefer the rank of prisoner to that of lieutenant? Besides, you look good in a dress. What's a knock-out like you doing in a computer-generated gin joint like this? Worf, It's better than music. It's jazz. We finished our first sensor sweep of the neutral zone. Your shields were failing, sir. Earl Grey tea, watercress sandwiches... and Bularian canapés? Are you up for promotion? I can't. As much as I care about you, my first duty is to the ship</p>
+					<div class="col-md-9">
+						<p>When has justice ever been as simple as a rule book? Sure. You'd be surprised how far a hug goes with Geordi, or Worf. About four years. I got tired of hearing how young I looked. We could cause a diplomatic crisis. Take the ship into the Neutral Zone For an android with no feelings, he sure managed to evoke them in others. Damage report! In all trust, there is the possibility for betrayal. I'm afraid I still don't understand, sir. They were just sucked into space. The Enterprise computer system is controlled by three primary main processor cores, cross-linked with a redundant melacortz ramistat, fourteen kiloquad interface modules. I will obey your orders. I will serve this ship as First Officer. And in an attack against the Enterprise, I will die with this crew. But I will not break my oath of loyalty to Starfleet. Yesterday I did not know how to eat gagh. The Federation's gone; the Borg is everywhere! A surprise party? Mr. Worf, I hate surprise parties. I would *never* do that to you. Mr. Worf, you sound like a man who's asking his friend if he can start dating his sister. Commander William Riker of the Starship Enterprise.</p>
 					</div>
 				</div>
 
+				<div class="row">
+					<div class="col-md-3">content</div>
+					<div class="col-md-3">content</div>
+					<div class="col-md-3">content</div>
+					<div class="col-md-3">content</div>
+				</div>
 			</main>
+
 		</div>
 
-		<!--begin footer-->
 		<footer>
 			<div class="container">
-				<p>&copy;&nbsp;2015 Last Minute LLC.</p>
+				<div class="row">
+					<div class="col-md-6">
+						footer text here
+					</div>
+					<div class="col-md-3">
+						<ul>
+							<li><a href="#">link</a></li>
+							<li><a href="#">link</a></li>
+							<li><a href="#">link</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<ul>
+							<li><a href="#">link</a></li>
+							<li><a href="#">link</a></li>
+							<li><a href="#">link</a></li>
+						</ul>
+					</div>
+				</div>
+
 			</div>
 		</footer>
 	</body>
