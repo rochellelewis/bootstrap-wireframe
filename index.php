@@ -48,10 +48,10 @@
 			</header>
 
 			<main class="container">
-				<div class="row">
-					<div class="col-xs-12 welcome">
-						<h2>Welcome to my site! :D LOLz.</h2>
-					</div>
+
+				<div class="welcome">
+					<h2>Welcome to my site! :D LOLz.</h2>
+					<p>Here's some text to welcome you verymuch. :D</p>
 				</div>
 
 				<div class="row">
@@ -63,11 +63,23 @@
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="col-md-3">content</div>
-					<div class="col-md-3">content</div>
-					<div class="col-md-3">content</div>
-					<div class="col-md-3">content</div>
+				<div class="row flex">
+					<div class="col-md-3 flex-item">
+						<h3>8-bit</h3>
+						<p>Tofu plaid readymade wayfarers tousled, Helvetica trust fund hoodie you probably haven't heard of them salvia keytar brunch Wes Anderson. Ennui mustache flexitarian chambray cliche.</p>
+					</div>
+					<div class="col-md-3 flex-item">
+						<h3>Intelligentsia</h3>
+						<p>Scenester wolf Tumblr Thundercats. Fanny pack Bushwick YOLO, twee plaid McSweeney's Etsy mustache actually. Lo-fi 3 wolf moon vegan, Echo Park twee +1 butcher dreamcatcher jean shorts fanny pack Portland 8-bit banh mi. Freegan readymade salvia skateboard chia, farm-to-table next level retro ethical direct trade messenger bag American Apparel.</p>
+					</div>
+					<div class="col-md-3 flex-item">
+						<h3>Disrupt</h3>
+						<p>Pickled ethical Etsy whatever hoodie farm-to-table distillery pour-over lomo. Umami Tumblr iPhone, farm-to-table chambray church-key normcore fap jean shorts butcher wolf. Street art normcore 3 wolf moon chia, salvia deep v roof party locavore Marfa Brooklyn four dollar toast chambray</p>
+					</div>
+					<div class="col-md-3 flex-item">
+						<h3>Normcore</h3>
+						<p>Dreamcatcher small batch freegan YOLO, hoodie literally Bushwick four loko four dollar toast</p>
+					</div>
 				</div>
 			</main>
 
@@ -77,7 +89,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						footer text here
+						<p>&copy;&nbsp;2015 Blah, blah, blah.</p>
 					</div>
 					<div class="col-md-3">
 						<ul>
