@@ -30,7 +30,103 @@
 
 		<title>Basic Bootstrap Wireframe Exercise</title>
 	</head>
-	<body>
+	<body class="sfooter">
+		<div class="sfooter-content">
+			<header>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<!--begin navbar-->
+							<nav class="navbar navbar-inverse">
 
+								<!--logo and mobile toggle button get grouped together-->
+								<div class="navbar-header">
+									<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-navbar" aria-expanded="false">
+										<span class="sr-only">Main Menu</span>
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+									<a href="#" class="navbar-brand">
+										<span class="glyphicon glyphicon-equalizer"></span>
+										Bootstrap Wireframe
+									</a>
+								</div>
+
+								<!--nav links are grouped together here -->
+								<div class="collapse navbar-collapse navbar-right" id="my-navbar">
+									<ul class="nav navbar-nav">
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="jumbotron">
+								<h1>Basic Bootstrap Wireframe</h1>
+								<p>This example uses the Bootstrap navbar, Jumbotron, and the Flexbox Sticky Footer. View Source for details.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="text-box bg-pink">
+								<h3>Try-hard Kitsch</h3>
+								<p>Four loko ethical williamsburg austin lo-fi try-hard kitsch, 90's cliche lomo fanny pack poutine. Venmo blog viral wayfarers before they sold out fingerstache.</p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="text-box bg-pink">
+								<h3>Art Party Swag</h3>
+								<p>Meh waistcoat kitsch shabby chic. Roof party tumblr thundercats kombucha intelligentsia tote bag, heirloom ugh readymade art party swag.</p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="text-box bg-pink">
+								<h3>Fingerstache</h3>
+								<p>Kitsch squid hoodie vice kale chips messenger bag. Microdosing farm-to-table synth shoreditch. Portland roof party health goth, beard artisan truffaut.</p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="text-box bg-pink">
+								<h3>Cliche Waistcoat</h3>
+								<p>Kitsch microdosing XOXO umami cold-pressed, jean shorts pabst. Cliche waistcoat crucifix selvage squid hashtag wayfarers sustainable street art locavore brunch.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="text-box bg-gray">
+								<h3>About This Layout</h3>
+								<p>Pay attention to this little detail in the code: I've not used rows to contain elements that are full-width, for the sake of consistency of margins.</p>
+								<p>Bootstrap default styles have been used primarily throughout. View CSS source to see the custom styles.</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="text-box bg-gray">
+								<h3>About This Code</h3>
+								<p>View the source for the CSS to see the Flexbox Sticky Footer. This Flexbox hack will keep a footer at the bottom of a page even if the content above it is short.</p>
+								<p>Shrink your browser window down to see this layout's responsive behavior in action.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div>This is some fancy footer text :D</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

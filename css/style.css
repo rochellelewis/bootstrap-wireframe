@@ -3,10 +3,81 @@
 * https://bootcamp-coders.cnm.edu
 *
 * @author rlewis37@cnm.edu
-*
-*
 ********************************************/
 
 /********************************************
-* Base Styles
+* Layout Styles
+*
+* These styles control the layout
 ********************************************/
+header {
+	padding-top: 20px;
+}
+
+footer {
+	background-color: #000000;
+	color: pink;
+	font-style: italic;
+	margin-top: 40px;
+	padding: 60px 0;
+}
+
+/********************************************
+* Utility Styles
+*
+* These are intended to be re-used
+* for styling purposes
+********************************************/
+.text-box {
+	border-radius: 6px;
+	padding: 10px 15px 15px;
+	margin-bottom: 20px;
+}
+
+.bg-pink {
+	background: pink;
+}
+
+.bg-gray {
+	background: #eeeeee;
+}
+
+/********************************************
+* Bootstrap Overrides
+*
+* These styles override the Bootstrap
+* defaults
+********************************************/
+
+/*This media query targets all screens larger than 768px*/
+@media only screen and (max-width: 768px) {
+
+	/*this rule fixes the jumbortron padding on XS screens only*/
+	.jumbotron {
+		padding: 20px;
+	}
+}
+
+/*this rule fixes the icon color in the mobile toggle button*/
+.navbar-header button span.glyphicon {
+	color: #ffffff;
+}
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
