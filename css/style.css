@@ -11,12 +11,12 @@
 * These styles control the layout
 ********************************************/
 header {
-	padding-top: 20px;
+	margin-top: 20px;
 }
 
 footer {
 	background-color: #000000;
-	color: pink;
+	color: #cccccc;
 	font-style: italic;
 	margin-top: 40px;
 	padding: 60px 0;
@@ -28,39 +28,11 @@ footer {
 * These are intended to be re-used
 * for styling purposes
 ********************************************/
-.text-box {
+.content-box {
+	background-color: #cccccc;
 	border-radius: 6px;
 	padding: 10px 15px 15px;
 	margin-bottom: 20px;
-}
-
-.bg-pink {
-	background: pink;
-}
-
-.bg-gray {
-	background: #eeeeee;
-}
-
-/********************************************
-* Bootstrap Overrides
-*
-* These styles override the Bootstrap
-* defaults
-********************************************/
-
-/*This media query targets all screens larger than 768px*/
-@media only screen and (max-width: 768px) {
-
-	/*this rule fixes the jumbortron padding on XS screens only*/
-	.jumbotron {
-		padding: 20px;
-	}
-}
-
-/*this rule fixes the icon color in the mobile toggle button*/
-.navbar-header button span.glyphicon {
-	color: #ffffff;
 }
 
 /***
